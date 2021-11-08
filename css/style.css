@@ -1,0 +1,135 @@
+:root {
+  --primary-color: hsl(185, 75%, 39%);
+  --light-color: #ffffff;
+  --grey-color: hsl(0, 0%, 59%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-size: 10px;
+  font-family: "Kumbh Sans", sans-serif;
+  height: 100vh;
+  background: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.bg-pattern {
+  position: fixed;
+}
+
+.top-pattern {
+  top: -90%;
+  left: -22%;
+}
+
+.bottom-pattern {
+  bottom: -90%;
+  right: -22%;
+}
+
+/* Card Styles */
+
+.card {
+  height: 340px;
+  width: 300px;
+  border-radius: 8px;
+  background: var(--light-color);
+  z-index: 999;
+}
+
+.card-header {
+  height: 40%;
+  width: 100%;
+}
+
+.card-header > img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.card-content {
+  height: 60%;
+  width: 100%;
+  position: relative;
+  padding-top: 50px;
+}
+
+.card-content img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 50%;
+  position: absolute;
+  align-self: center;
+  left: 100px;
+  top: -65px;
+  border: 5px solid var(--light-color);
+}
+
+.name-location-holder {
+  text-align: center;
+}
+
+.stats-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+  padding: 20px 40px;
+  width: 100%;
+  border-radius: 0px 0px 8px 8px;
+  border-top: 1px solid #eeeeee;
+}
+
+.stats-section span {
+  display: block;
+  text-align: center;
+}
+
+.name-text {
+  font-weight: 700;
+  font-size: 18px;
+  padding-bottom: 8px;
+}
+
+.age-place-text {
+  color: var(--grey-color);
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.stat-value {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.stat-heading {
+  padding-top: 3px;
+  font-weight: 400;
+  font-size: 10px;
+  color: var(--grey-color);
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 400px) {
+  .top-pattern {
+    top: -90%;
+    left: -210%;
+  }
+
+  .bottom-pattern {
+    bottom: -90%;
+    right: -210%;
+  }
+}
