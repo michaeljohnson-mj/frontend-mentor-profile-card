@@ -26,8 +26,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/michaeljohnson-mj/frontend-mentor-profile-card.git)
-- Live Site URL: [Add live site URL here](https://michaeljohnson-mj.github.io/frontend-mentor-profile-card/)
+- Solution URL: [https://github.com/michaeljohnson-mj/frontend-mentor-profile-card.git](https://github.com/michaeljohnson-mj/frontend-mentor-profile-card.git)
+- Live Site URL: [https://michaeljohnson-mj.github.io/frontend-mentor-profile-card/](https://michaeljohnson-mj.github.io/frontend-mentor-profile-card/)
 
 ## My process
 
@@ -44,5 +44,5 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## Author
 
-- Website - [Add your name here](https://www.michaeljohnson.tech)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/michaeljohnson-mj)
+- Website - [https://www.michaeljohnson.tech](https://www.michaeljohnson.tech)
+- Frontend Mentor - [https://www.frontendmentor.io/profile/michaeljohnson-mj](https://www.frontendmentor.io/profile/michaeljohnson-mj)
